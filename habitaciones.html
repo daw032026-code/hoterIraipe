@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Habitaciones - Hotel Iraipe Logroño</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Hotel Iraipe Logroño</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Abrir menú">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link active" href="habitaciones.html">Habitaciones</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#contacto">Contacto</a></li>
+          <li class="nav-item"><a class="nav-link" href="disponibles.html">Reservar</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container mt-4 mb-5">
+    <h1 class="titulo">Habitaciones</h1>
+    <p>El hotel tiene 46 habitaciones. Todas tienen escritorio, TV, teléfono, aire acondicionado, calefacción, WiFi gratis y baño con ducha o bañera.</p>
+
+    <div class="row mt-4">
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="card h-100">
+          <img src="img/hab-matrimonio.jpg" class="card-img-top" alt="Doble Estándar - Cama de matrimonio">
+          <div class="card-body">
+            <h5 class="card-title">Doble Estándar - Cama de matrimonio</h5>
+            <p class="card-text">Habitación cómoda con cama de matrimonio, para viajes en pareja o de trabajo.</p>
+            <p class="card-text"><strong>Desde 50 € / noche</strong></p>
+          </div>
+          <div class="card-footer bg-white">
+            <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#modal-matrimonio">Ver habitación</button>
+            <a href="disponibles.html" class="btn btn-primary">Reservar</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="card h-100">
+          <img src="img/hab-dos-camas.jpg" class="card-img-top" alt="Doble Estándar - Dos camas">
+          <div class="card-body">
+            <h5 class="card-title">Doble Estándar - Dos camas</h5>
+            <p class="card-text">Habitación doble con dos camas individuales.</p>
+            <p class="card-text"><strong>Consultar precio</strong></p>
+          </div>
+          <div class="card-footer bg-white">
+            <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#modal-doscamas">Ver habitación</button>
+            <a href="disponibles.html" class="btn btn-primary">Reservar</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="card h-100">
+          <img src="img/terraza2.jpg" class="card-img-top" alt="Doble con Terraza - Cama de matrimonio">
+          <div class="card-body">
+            <h5 class="card-title">Doble con Terraza - Cama de matrimonio</h5>
+            <p class="card-text">Habitación luminosa con terraza privada y vistas a la piscina.</p>
+            <p class="card-text"><strong>Desde 56 € / noche</strong></p>
+          </div>
+          <div class="card-footer bg-white">
+            <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#modal-terraza">Ver habitación</button>
+            <a href="disponibles.html" class="btn btn-primary">Reservar</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="card h-100">
+          <img src="img/terraza2.jpg" class="card-img-top" alt="Doble con Terraza - Dos camas">
+          <div class="card-body">
+            <h5 class="card-title">Doble con Terraza - Dos camas</h5>
+            <p class="card-text">Habitación con dos camas individuales y terraza.</p>
+            <p class="card-text"><strong>Consultar precio</strong></p>
+          </div>
+          <div class="card-footer bg-white">
+            <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#modal-terrazadoscamas">Ver habitación</button>
+            <a href="disponibles.html" class="btn btn-primary">Reservar</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="card h-100">
+          <img src="img/hab-familiar.jpg" class="card-img-top" alt="Habitación Familiar">
+          <div class="card-body">
+            <h5 class="card-title">Habitación Familiar</h5>
+            <p class="card-text">Habitación amplia con cama de matrimonio y sofá cama, pensada para familias o grupos pequeños.</p>
+            <p class="card-text"><strong>Desde 95 € / noche</strong></p>
+          </div>
+          <div class="card-footer bg-white">
+            <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#modal-familiar">Ver habitación</button>
+            <a href="disponibles.html" class="btn btn-primary">Reservar</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="card h-100">
+          <img src="img/hab-junior-suite.jpg" class="card-img-top" alt="Junior Suite">
+          <div class="card-body">
+            <h5 class="card-title">Junior Suite</h5>
+            <p class="card-text">La opción más espaciosa, con dos camas individuales y sofá cama.</p>
+            <p class="card-text"><strong>Desde 95 € / noche</strong></p>
+          </div>
+          <div class="card-footer bg-white">
+            <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#modal-junior">Ver habitación</button>
+            <a href="disponibles.html" class="btn btn-primary">Reservar</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="modal-matrimonio" tabindex="-1" aria-labelledby="titulo-matrimonio" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="titulo-matrimonio">Doble Estándar - Cama de matrimonio</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+        </div>
+        <div class="modal-body">
+          <div id="carrusel-matrimonio" class="carousel slide mb-3">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/hab-matrimonio.jpg" class="d-block w-100" alt="Doble Estándar - Cama de matrimonio - foto 1">
+              </div>
+              <div class="carousel-item">
+                <img src="img/bano-grande.jpg" class="d-block w-100 foto-entera" alt="Doble Estándar - Cama de matrimonio - foto 2">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carrusel-matrimonio" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+              <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carrusel-matrimonio" data-bs-slide="next">
+              <span class="carousel-control-next-icon"></span>
+              <span class="visually-hidden">Siguiente</span>
+            </button>
+          </div>
+          <p>Habitación cómoda con cama de matrimonio, para viajes en pareja o de trabajo.</p>
+          <div class="row">
+            <div class="col-md-6">
+              <p><strong>Capacidad:</strong> 2 personas</p>
+              <p><strong>Camas:</strong> 1 cama de matrimonio</p>
+              <p><strong>Precio:</strong> Desde 50 € / noche</p>
+            </div>
+            <div class="col-md-6">
+              <strong>Equipamiento:</strong>
+              <ul>
+              <li>WiFi gratis</li>
+              <li>TV de pantalla plana</li>
+              <li>Baño completo</li>
+              <li>Climatización individual</li>
+              <li>Zona de trabajo</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          <a href="disponibles.html" class="btn btn-primary">Reservar</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="modal-doscamas" tabindex="-1" aria-labelledby="titulo-doscamas" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="titulo-doscamas">Doble Estándar - Dos camas</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+        </div>
+        <div class="modal-body">
+          <div id="carrusel-doscamas" class="carousel slide mb-3">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/hab-dos-camas.jpg" class="d-block w-100" alt="Doble Estándar - Dos camas - foto 1">
+              </div>
+              <div class="carousel-item">
+                <img src="img/bano-grande.jpg" class="d-block w-100 foto-entera" alt="Doble Estándar - Dos camas - foto 2">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carrusel-doscamas" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+              <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carrusel-doscamas" data-bs-slide="next">
+              <span class="carousel-control-next-icon"></span>
+              <span class="visually-hidden">Siguiente</span>
+            </button>
+          </div>
+          <p>Habitación doble con dos camas individuales.</p>
+          <div class="row">
+            <div class="col-md-6">
+              <p><strong>Capacidad:</strong> 2 personas</p>
+              <p><strong>Camas:</strong> 2 camas individuales</p>
+              <p><strong>Precio:</strong> Consultar precio</p>
+            </div>
+            <div class="col-md-6">
+              <strong>Equipamiento:</strong>
+              <ul>
+              <li>WiFi gratis</li>
+              <li>TV de pantalla plana</li>
+              <li>Baño completo</li>
+              <li>Climatización individual</li>
+              <li>Zona de trabajo</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          <a href="disponibles.html" class="btn btn-primary">Reservar</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="modal-terraza" tabindex="-1" aria-labelledby="titulo-terraza" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="titulo-terraza">Doble con Terraza - Cama de matrimonio</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+        </div>
+        <div class="modal-body">
+          <div id="carrusel-terraza" class="carousel slide mb-3">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/terraza2.jpg" class="d-block w-100" alt="Doble con Terraza - Cama de matrimonio - foto 1">
+              </div>
+              <div class="carousel-item">
+                <img src="img/piscina.jpg" class="d-block w-100" alt="Doble con Terraza - Cama de matrimonio - foto 2">
+              </div>
+              <div class="carousel-item">
+                <img src="img/bano-grande.jpg" class="d-block w-100 foto-entera" alt="Doble con Terraza - Cama de matrimonio - foto 3">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carrusel-terraza" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+              <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carrusel-terraza" data-bs-slide="next">
+              <span class="carousel-control-next-icon"></span>
+              <span class="visually-hidden">Siguiente</span>
+            </button>
+          </div>
+          <p>Habitación luminosa con terraza privada y vistas a la piscina.</p>
+          <div class="row">
+            <div class="col-md-6">
+              <p><strong>Capacidad:</strong> 2 personas</p>
+              <p><strong>Camas:</strong> 1 cama de matrimonio</p>
+              <p><strong>Precio:</strong> Desde 56 € / noche</p>
+            </div>
+            <div class="col-md-6">
+              <strong>Equipamiento:</strong>
+              <ul>
+              <li>Terraza privada</li>
+              <li>Vistas a la piscina</li>
+              <li>WiFi gratis</li>
+              <li>TV de pantalla plana</li>
+              <li>Baño completo</li>
+              <li>Climatización</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          <a href="disponibles.html" class="btn btn-primary">Reservar</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="modal fade" id="modal-terrazadoscamas" tabindex="-1" aria-labelledby="titulo-terrazadoscamas" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="titulo-terrazadoscamas">Doble con Terraza - Dos camas</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+        </div>
+        <div class="modal-body">
+          <div id="carrusel-terrazadoscamas" class="carousel slide mb-3">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/terraza2.jpg" class="d-block w-100" alt="Doble con Terraza - Dos camas - foto 1">
+              </div>
+              <div class="carousel-item">
+                <img src="img/hab-dos-camas.jpg" class="d-block w-100" alt="Doble con Terraza - Dos camas - foto 2">
+              </div>
+              <div class="carousel-item">
+                <img src="img/bano-grande.jpg" class="d-block w-100 foto-entera" alt="Doble con Terraza - Dos camas - foto 3">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carrusel-terrazadoscamas" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+              <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carrusel-terrazadoscamas" data-bs-slide="next">
+              <span class="carousel-control-next-icon"></span>
+              <span class="visually-hidden">Siguiente</span>
+            </button>
+          </div>
+          <p>Habitación con dos camas individuales y terraza.</p>
+          <div class="row">
+            <div class="col-md-6">
+              <p><strong>Capacidad:</strong> 2 personas</p>
+              <p><strong>Camas:</strong> 2 camas individuales</p>
+              <p><strong>Precio:</strong> Consultar precio</p>
+            </div>
+            <div class="col-md-6">
+              <strong>Equipamiento:</strong>
+              <ul>
+              <li>Terraza</li>
+              <li>WiFi gratis</li>
+              <li>TV de pantalla plana</li>
+              <li>Baño completo</li>
+              <li>Climatización</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          <a href="disponibles.html" class="btn btn-primary">Reservar</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="modal fade" id="modal-familiar" tabindex="-1" aria-labelledby="titulo-familiar" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="titulo-familiar">Habitación Familiar</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+        </div>
+        <div class="modal-body">
+          <div id="carrusel-familiar" class="carousel slide mb-3">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/hab-familiar.jpg" class="d-block w-100" alt="Habitación Familiar - foto 1">
+              </div>
+              <div class="carousel-item">
+                <img src="img/bano-grande.jpg" class="d-block w-100 foto-entera" alt="Habitación Familiar - foto 2">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carrusel-familiar" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+              <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carrusel-familiar" data-bs-slide="next">
+              <span class="carousel-control-next-icon"></span>
+              <span class="visually-hidden">Siguiente</span>
+            </button>
+          </div>
+          <p>Habitación amplia con cama de matrimonio y sofá cama, pensada para familias o grupos pequeños.</p>
+          <div class="row">
+            <div class="col-md-6">
+              <p><strong>Capacidad:</strong> 4 personas</p>
+              <p><strong>Camas:</strong> Cama de matrimonio + sofá cama</p>
+              <p><strong>Precio:</strong> Desde 95 € / noche</p>
+            </div>
+            <div class="col-md-6">
+              <strong>Equipamiento:</strong>
+              <ul>
+              <li>WiFi gratis</li>
+              <li>TV</li>
+              <li>Baño privado</li>
+              <li>Climatización individual</li>
+              <li>Escritorio</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          <a href="disponibles.html" class="btn btn-primary">Reservar</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="modal fade" id="modal-junior" tabindex="-1" aria-labelledby="titulo-junior" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="titulo-junior">Junior Suite</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+        </div>
+        <div class="modal-body">
+          <div id="carrusel-junior" class="carousel slide mb-3">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/hab-junior-suite.jpg" class="d-block w-100" alt="Junior Suite - foto 1">
+              </div>
+              <div class="carousel-item">
+                <img src="img/hab-junior-suite-2.jpg" class="d-block w-100" alt="Junior Suite - foto 2">
+              </div>
+              <div class="carousel-item">
+                <img src="img/bano-grande.jpg" class="d-block w-100 foto-entera" alt="Junior Suite - foto 3">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carrusel-junior" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+              <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carrusel-junior" data-bs-slide="next">
+              <span class="carousel-control-next-icon"></span>
+              <span class="visually-hidden">Siguiente</span>
+            </button>
+          </div>
+          <p>La opción más espaciosa, con dos camas individuales y sofá cama.</p>
+          <div class="row">
+            <div class="col-md-6">
+              <p><strong>Capacidad:</strong> 4 personas</p>
+              <p><strong>Camas:</strong> 2 camas individuales + sofá cama</p>
+              <p><strong>Precio:</strong> Desde 95 € / noche</p>
+            </div>
+            <div class="col-md-6">
+              <strong>Equipamiento:</strong>
+              <ul>
+              <li>WiFi de alta velocidad</li>
+              <li>TV de pantalla plana</li>
+              <li>Baño completo</li>
+              <li>Climatización</li>
+              <li>Zona de trabajo</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          <a href="disponibles.html" class="btn btn-primary">Reservar</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="bg-dark text-white text-center p-3">
+    <p class="mb-0">Hotel Iraipe Logroño - Avda. de Madrid, 25, Logroño - Tel: 941 87 00 01</p>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

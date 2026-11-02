@@ -1,0 +1,136 @@
+html {
+  height: 100%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+
+footer {
+  margin-top: auto;
+}
+
+.form-control,
+.form-select {
+  border: 1px solid #858b91;
+  background-color: #fafafa;
+}
+
+.form-control:focus,
+.form-select:focus {
+  border-color: #8b1e3f;
+  box-shadow: 0 0 0 4px rgba(139, 30, 63, 0.25);
+}
+
+.btn-primary {
+  background-color: #8b1e3f;
+  border-color: #8b1e3f;
+}
+
+.btn-primary:hover {
+  background-color: #6d1631;
+  border-color: #6d1631;
+}
+
+.titulo {
+  color: #8b1e3f;
+}
+
+.portada {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url("img/fachada-cartel.jpg");
+  background-size: cover;
+  background-position: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.portada h1,
+.portada .lead {
+  text-shadow: 2px 2px 4px black;
+}
+
+
+.card img {
+  height: 220px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card {
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+}
+
+
+.carousel-item img {
+  height: 400px;
+  object-fit: cover;
+}
+
+
+.carousel-item img.foto-entera {
+  object-fit: contain;
+  background-color: #2b2b2b;
+}
+
+@media (max-width: 768px) {
+  .carousel-item img {
+    height: 250px;
+  }
+}
+
+.img-sobre {
+  height: 350px;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .img-sobre {
+    height: 250px;
+  }
+}
+
+.servicio {
+  background-color: #fff;
+  border: 1px solid #e3e3e3;
+  border-top: 4px solid #8b1e3f;
+  border-radius: 8px;
+  padding: 24px 16px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.servicio:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.servicio-icono {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 64px;
+  height: 64px;
+  margin-bottom: 16px;
+  border-radius: 50%;
+  background-color: #f5e6eb;
+  color: #8b1e3f;
+  font-size: 28px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.servicio:hover .servicio-icono {
+  background-color: #8b1e3f;
+  color: #fff;
+}
+
+.servicio p {
+  color: #555;
+}
